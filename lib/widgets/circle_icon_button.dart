@@ -9,7 +9,7 @@ class CircleIconButton extends StatelessWidget {
     required this.iconColor,
   });
 
-  final IconButton icon;
+  final IconData icon;
   final VoidCallback onTap;
   final Color iconColor;
 
