@@ -23,7 +23,7 @@ class FlowerCard extends StatelessWidget {
             BoxShadow(
               color: AppTheme.primaryDark.withValues(alpha: 0.08),
               blurRadius: 16,
-              offset: Offset(0, 0),
+              offset: Offset(0, 6),
             ),
           ],
         ),
@@ -59,9 +59,7 @@ class FlowerCard extends StatelessWidget {
                     top: 6,
                     right: 6,
                     child: ValueListenableBuilder<Set<String>>(
-                      valueListenable: FavoritesController.instance.toggle(
-                        flower.id,
-                      ), // favoritesController.instance => go to FavoritesController and call it
+                      valueListenable: FavoritesController.instance, // favoritesController.instance => go to FavoritesController and call it
                       builder: (context, favorites, _) {
                         final isFav = favorites.contains(flower.id);
                         return InkWell(
