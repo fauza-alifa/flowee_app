@@ -19,7 +19,7 @@ class QuantityStepper extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
-          'jumlah',
+          'Jumlah',
           style: TextStyle(
             fontSize: 15,
             fontWeight: FontWeight.w700,
