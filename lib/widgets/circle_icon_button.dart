@@ -6,7 +6,7 @@ class CircleIconButton extends StatelessWidget {
     super.key,
     required this.icon,
     required this.onTap,
-    required this.iconColor,
+    this.iconColor = Colors.black87,
   });
 
   final IconData icon;
