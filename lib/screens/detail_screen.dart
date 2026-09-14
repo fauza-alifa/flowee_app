@@ -82,6 +82,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       style: TextStyle(
                         color: AppTheme.textSecondary,
                         fontWeight: FontWeight.w500,
+                        height: 1.6,
                         fontSize: 13.5,
                       ),
                     ),
